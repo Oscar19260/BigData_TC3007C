@@ -1,0 +1,1516 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0812.0353                               -->
+<workbook original-version='18.1' source-build='2022.2.1 (20222.22.0812.0353)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='breast-cancer' inline='true' name='federated.0u40nes00vqe1s1d3o19d0kgdk5t' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='breast-cancer' name='textscan.1yzxob815df7xg15wvuen1oh6wp1'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='C:/Users/Oscar/Documents/Aprender/Universidad/Semestre_7/Bloque_1-3/IA avanzada para la ciencia de datos II/Big data/BigData_TC3007C/sample_data/breast-cancer.csv' dataRefreshTime='' directory='C:/Users/Oscar/Documents/Aprender/Universidad/Semestre_7/Bloque_1-3/IA avanzada para la ciencia de datos II/Big data/BigData_TC3007C/sample_data' filename='C:/Users/Oscar/AppData/Local/Temp/TableauTemp/0923c7f0s12e3613uwbkx1isvemi/breast-cancer.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1yzxob815df7xg15wvuen1oh6wp1' name='breast-cancer.csv' table='[C:\Users\Oscar\Documents\Aprender\Universidad\Semestre_7\Bloque_1-3\IA avanzada para la ciencia de datos II\Big data\BigData_TC3007C\sample_data\breast-cancer#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:AF570:no:A1:AF570:1' header='yes' locale='es_MX' separator=','>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='string' name='diagnosis' ordinal='1' />
+            <column datatype='real' name='radius_mean' ordinal='2' />
+            <column datatype='real' name='texture_mean' ordinal='3' />
+            <column datatype='real' name='perimeter_mean' ordinal='4' />
+            <column datatype='real' name='area_mean' ordinal='5' />
+            <column datatype='real' name='smoothness_mean' ordinal='6' />
+            <column datatype='real' name='compactness_mean' ordinal='7' />
+            <column datatype='real' name='concavity_mean' ordinal='8' />
+            <column datatype='real' name='concave points_mean' ordinal='9' />
+            <column datatype='real' name='symmetry_mean' ordinal='10' />
+            <column datatype='real' name='fractal_dimension_mean' ordinal='11' />
+            <column datatype='real' name='radius_se' ordinal='12' />
+            <column datatype='real' name='texture_se' ordinal='13' />
+            <column datatype='real' name='perimeter_se' ordinal='14' />
+            <column datatype='real' name='area_se' ordinal='15' />
+            <column datatype='real' name='smoothness_se' ordinal='16' />
+            <column datatype='real' name='compactness_se' ordinal='17' />
+            <column datatype='real' name='concavity_se' ordinal='18' />
+            <column datatype='real' name='concave points_se' ordinal='19' />
+            <column datatype='real' name='symmetry_se' ordinal='20' />
+            <column datatype='real' name='fractal_dimension_se' ordinal='21' />
+            <column datatype='real' name='radius_worst' ordinal='22' />
+            <column datatype='real' name='texture_worst' ordinal='23' />
+            <column datatype='real' name='perimeter_worst' ordinal='24' />
+            <column datatype='real' name='area_worst' ordinal='25' />
+            <column datatype='real' name='smoothness_worst' ordinal='26' />
+            <column datatype='real' name='compactness_worst' ordinal='27' />
+            <column datatype='real' name='concavity_worst' ordinal='28' />
+            <column datatype='real' name='concave points_worst' ordinal='29' />
+            <column datatype='real' name='symmetry_worst' ordinal='30' />
+            <column datatype='real' name='fractal_dimension_worst' ordinal='31' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1yzxob815df7xg15wvuen1oh6wp1' name='breast-cancer.csv' table='[C:\Users\Oscar\Documents\Aprender\Universidad\Semestre_7\Bloque_1-3\IA avanzada para la ciencia de datos II\Big data\BigData_TC3007C\sample_data\breast-cancer#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:AF570:no:A1:AF570:1' header='yes' locale='es_MX' separator=','>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='string' name='diagnosis' ordinal='1' />
+            <column datatype='real' name='radius_mean' ordinal='2' />
+            <column datatype='real' name='texture_mean' ordinal='3' />
+            <column datatype='real' name='perimeter_mean' ordinal='4' />
+            <column datatype='real' name='area_mean' ordinal='5' />
+            <column datatype='real' name='smoothness_mean' ordinal='6' />
+            <column datatype='real' name='compactness_mean' ordinal='7' />
+            <column datatype='real' name='concavity_mean' ordinal='8' />
+            <column datatype='real' name='concave points_mean' ordinal='9' />
+            <column datatype='real' name='symmetry_mean' ordinal='10' />
+            <column datatype='real' name='fractal_dimension_mean' ordinal='11' />
+            <column datatype='real' name='radius_se' ordinal='12' />
+            <column datatype='real' name='texture_se' ordinal='13' />
+            <column datatype='real' name='perimeter_se' ordinal='14' />
+            <column datatype='real' name='area_se' ordinal='15' />
+            <column datatype='real' name='smoothness_se' ordinal='16' />
+            <column datatype='real' name='compactness_se' ordinal='17' />
+            <column datatype='real' name='concavity_se' ordinal='18' />
+            <column datatype='real' name='concave points_se' ordinal='19' />
+            <column datatype='real' name='symmetry_se' ordinal='20' />
+            <column datatype='real' name='fractal_dimension_se' ordinal='21' />
+            <column datatype='real' name='radius_worst' ordinal='22' />
+            <column datatype='real' name='texture_worst' ordinal='23' />
+            <column datatype='real' name='perimeter_worst' ordinal='24' />
+            <column datatype='real' name='area_worst' ordinal='25' />
+            <column datatype='real' name='smoothness_worst' ordinal='26' />
+            <column datatype='real' name='compactness_worst' ordinal='27' />
+            <column datatype='real' name='concavity_worst' ordinal='28' />
+            <column datatype='real' name='concave points_worst' ordinal='29' />
+            <column datatype='real' name='symmetry_worst' ordinal='30' />
+            <column datatype='real' name='fractal_dimension_worst' ordinal='31' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AF570:no:A1:AF570:1&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_MX&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diagnosis</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[diagnosis]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>diagnosis</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>radius_mean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[radius_mean]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>radius_mean</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>texture_mean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[texture_mean]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>texture_mean</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>perimeter_mean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[perimeter_mean]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>perimeter_mean</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>area_mean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[area_mean]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>area_mean</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>smoothness_mean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[smoothness_mean]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>smoothness_mean</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>compactness_mean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[compactness_mean]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>compactness_mean</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>concavity_mean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[concavity_mean]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>concavity_mean</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>concave points_mean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[concave points_mean]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>concave points_mean</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>symmetry_mean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[symmetry_mean]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>symmetry_mean</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fractal_dimension_mean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fractal_dimension_mean]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>fractal_dimension_mean</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>radius_se</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[radius_se]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>radius_se</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>texture_se</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[texture_se]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>texture_se</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>perimeter_se</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[perimeter_se]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>perimeter_se</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>area_se</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[area_se]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>area_se</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>smoothness_se</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[smoothness_se]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>smoothness_se</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>compactness_se</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[compactness_se]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>compactness_se</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>concavity_se</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[concavity_se]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>concavity_se</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>concave points_se</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[concave points_se]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>concave points_se</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>symmetry_se</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[symmetry_se]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>symmetry_se</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fractal_dimension_se</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fractal_dimension_se]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>fractal_dimension_se</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>radius_worst</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[radius_worst]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>radius_worst</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>texture_worst</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[texture_worst]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>texture_worst</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>perimeter_worst</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[perimeter_worst]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>perimeter_worst</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>area_worst</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[area_worst]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>area_worst</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>smoothness_worst</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[smoothness_worst]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>smoothness_worst</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>compactness_worst</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[compactness_worst]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>compactness_worst</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>concavity_worst</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[concavity_worst]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>concavity_worst</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>concave points_worst</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[concave points_worst]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>concave points_worst</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>symmetry_worst</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[symmetry_worst]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>symmetry_worst</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fractal_dimension_worst</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fractal_dimension_worst]</local-name>
+            <parent-name>[breast-cancer.csv]</parent-name>
+            <remote-alias>fractal_dimension_worst</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='breast-cancer.csv' datatype='table' name='[__tableau_internal_object_id__].[breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D]' role='measure' type='quantitative' />
+      <column caption='Area Mean' datatype='real' name='[area_mean]' role='measure' type='quantitative' />
+      <column caption='Area Se' datatype='real' name='[area_se]' role='measure' type='quantitative' />
+      <column caption='Area Worst' datatype='real' name='[area_worst]' role='measure' type='quantitative' />
+      <column caption='Compactness Mean' datatype='real' name='[compactness_mean]' role='measure' type='quantitative' />
+      <column caption='Compactness Se' datatype='real' name='[compactness_se]' role='measure' type='quantitative' />
+      <column caption='Compactness Worst' datatype='real' name='[compactness_worst]' role='measure' type='quantitative' />
+      <column caption='Concave Points Mean' datatype='real' name='[concave points_mean]' role='measure' type='quantitative' />
+      <column caption='Concave Points Se' datatype='real' name='[concave points_se]' role='measure' type='quantitative' />
+      <column caption='Concave Points Worst' datatype='real' name='[concave points_worst]' role='measure' type='quantitative' />
+      <column caption='Concavity Mean' datatype='real' name='[concavity_mean]' role='measure' type='quantitative' />
+      <column caption='Concavity Se' datatype='real' name='[concavity_se]' role='measure' type='quantitative' />
+      <column caption='Concavity Worst' datatype='real' name='[concavity_worst]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Diagnosis' datatype='string' name='[diagnosis]' role='dimension' type='nominal' />
+      <column caption='Fractal Dimension Mean' datatype='real' name='[fractal_dimension_mean]' role='measure' type='quantitative' />
+      <column caption='Fractal Dimension Se' datatype='real' name='[fractal_dimension_se]' role='measure' type='quantitative' />
+      <column caption='Fractal Dimension Worst' datatype='real' name='[fractal_dimension_worst]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Perimeter Mean' datatype='real' name='[perimeter_mean]' role='measure' type='quantitative' />
+      <column caption='Perimeter Se' datatype='real' name='[perimeter_se]' role='measure' type='quantitative' />
+      <column caption='Perimeter Worst' datatype='real' name='[perimeter_worst]' role='measure' type='quantitative' />
+      <column caption='Radius Mean' datatype='real' name='[radius_mean]' role='measure' type='quantitative' />
+      <column caption='Radius Se' datatype='real' name='[radius_se]' role='measure' type='quantitative' />
+      <column caption='Radius Worst' datatype='real' name='[radius_worst]' role='measure' type='quantitative' />
+      <column caption='Smoothness Mean' datatype='real' name='[smoothness_mean]' role='measure' type='quantitative' />
+      <column caption='Smoothness Se' datatype='real' name='[smoothness_se]' role='measure' type='quantitative' />
+      <column caption='Smoothness Worst' datatype='real' name='[smoothness_worst]' role='measure' type='quantitative' />
+      <column caption='Symmetry Mean' datatype='real' name='[symmetry_mean]' role='measure' type='quantitative' />
+      <column caption='Symmetry Se' datatype='real' name='[symmetry_se]' role='measure' type='quantitative' />
+      <column caption='Symmetry Worst' datatype='real' name='[symmetry_worst]' role='measure' type='quantitative' />
+      <column caption='Texture Mean' datatype='real' name='[texture_mean]' role='measure' type='quantitative' />
+      <column caption='Texture Se' datatype='real' name='[texture_se]' role='measure' type='quantitative' />
+      <column caption='Texture Worst' datatype='real' name='[texture_worst]' role='measure' type='quantitative' />
+      <column-instance column='[area_mean]' derivation='Avg' name='[avg:area_mean:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[area_se]' derivation='Avg' name='[avg:area_se:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[area_worst]' derivation='Avg' name='[avg:area_worst:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[compactness_mean]' derivation='Avg' name='[avg:compactness_mean:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[perimeter_mean]' derivation='Avg' name='[avg:perimeter_mean:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[perimeter_se]' derivation='Avg' name='[avg:perimeter_se:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[perimeter_worst]' derivation='Avg' name='[avg:perimeter_worst:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[symmetry_mean]' derivation='Avg' name='[avg:symmetry_mean:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[area_mean]' derivation='Count' name='[cnt:area_mean:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[area_mean]' derivation='CountD' name='[ctd:area_mean:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[area_mean]' derivation='Sum' name='[sum:area_mean:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[area_se]' derivation='Sum' name='[sum:area_se:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[area_worst]' derivation='Sum' name='[sum:area_worst:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[compactness_mean]' derivation='Sum' name='[sum:compactness_mean:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[compactness_se]' derivation='Sum' name='[sum:compactness_se:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[id]' derivation='Sum' name='[sum:id:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[perimeter_mean]' derivation='Sum' name='[sum:perimeter_mean:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[perimeter_se]' derivation='Sum' name='[sum:perimeter_se:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[perimeter_worst]' derivation='Sum' name='[sum:perimeter_worst:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[radius_mean]' derivation='Sum' name='[sum:radius_mean:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[symmetry_mean]' derivation='Sum' name='[sum:symmetry_mean:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:area_mean:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[cnt:area_mean:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[ctd:area_mean:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[sum:area_mean:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:compactness_mean:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:symmetry_mean:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[sum:compactness_mean:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[sum:symmetry_mean:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:area_worst:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[sum:area_worst:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:perimeter_worst:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[sum:perimeter_worst:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:perimeter_mean:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[sum:perimeter_mean:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:area_se:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[sum:area_se:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[sum:compactness_se:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[sum:radius_mean:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[sum:id:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:perimeter_se:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[sum:perimeter_se:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Estados Unidos Mexicanos&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='breast-cancer.csv' id='breast-cancer.csv_BB86FBB798E941509D1FCF4248AD6F3D'>
+            <properties context=''>
+              <relation connection='textscan.1yzxob815df7xg15wvuen1oh6wp1' name='breast-cancer.csv' table='[C:\Users\Oscar\Documents\Aprender\Universidad\Semestre_7\Bloque_1-3\IA avanzada para la ciencia de datos II\Big data\BigData_TC3007C\sample_data\breast-cancer#csv]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:AF570:no:A1:AF570:1' header='yes' locale='es_MX' separator=','>
+                  <column datatype='integer' name='id' ordinal='0' />
+                  <column datatype='string' name='diagnosis' ordinal='1' />
+                  <column datatype='real' name='radius_mean' ordinal='2' />
+                  <column datatype='real' name='texture_mean' ordinal='3' />
+                  <column datatype='real' name='perimeter_mean' ordinal='4' />
+                  <column datatype='real' name='area_mean' ordinal='5' />
+                  <column datatype='real' name='smoothness_mean' ordinal='6' />
+                  <column datatype='real' name='compactness_mean' ordinal='7' />
+                  <column datatype='real' name='concavity_mean' ordinal='8' />
+                  <column datatype='real' name='concave points_mean' ordinal='9' />
+                  <column datatype='real' name='symmetry_mean' ordinal='10' />
+                  <column datatype='real' name='fractal_dimension_mean' ordinal='11' />
+                  <column datatype='real' name='radius_se' ordinal='12' />
+                  <column datatype='real' name='texture_se' ordinal='13' />
+                  <column datatype='real' name='perimeter_se' ordinal='14' />
+                  <column datatype='real' name='area_se' ordinal='15' />
+                  <column datatype='real' name='smoothness_se' ordinal='16' />
+                  <column datatype='real' name='compactness_se' ordinal='17' />
+                  <column datatype='real' name='concavity_se' ordinal='18' />
+                  <column datatype='real' name='concave points_se' ordinal='19' />
+                  <column datatype='real' name='symmetry_se' ordinal='20' />
+                  <column datatype='real' name='fractal_dimension_se' ordinal='21' />
+                  <column datatype='real' name='radius_worst' ordinal='22' />
+                  <column datatype='real' name='texture_worst' ordinal='23' />
+                  <column datatype='real' name='perimeter_worst' ordinal='24' />
+                  <column datatype='real' name='area_worst' ordinal='25' />
+                  <column datatype='real' name='smoothness_worst' ordinal='26' />
+                  <column datatype='real' name='compactness_worst' ordinal='27' />
+                  <column datatype='real' name='concavity_worst' ordinal='28' />
+                  <column datatype='real' name='concave points_worst' ordinal='29' />
+                  <column datatype='real' name='symmetry_worst' ordinal='30' />
+                  <column datatype='real' name='fractal_dimension_worst' ordinal='31' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Area_diag'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Área promedio del seno</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='breast-cancer' name='federated.0u40nes00vqe1s1d3o19d0kgdk5t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0u40nes00vqe1s1d3o19d0kgdk5t'>
+            <column caption='Area Mean' datatype='real' name='[area_mean]' role='measure' type='quantitative' />
+            <column caption='Area Se' datatype='real' name='[area_se]' role='measure' type='quantitative' />
+            <column caption='Area Worst' datatype='real' name='[area_worst]' role='measure' type='quantitative' />
+            <column-instance column='[area_mean]' derivation='Avg' name='[avg:area_mean:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[area_se]' derivation='Avg' name='[avg:area_se:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[area_worst]' derivation='Avg' name='[avg:area_worst:qk]' pivot='key' type='quantitative' />
+            <column aggregation='CountD' caption='Diagnosis' datatype='string' name='[diagnosis]' role='dimension' type='nominal' />
+            <column-instance column='[diagnosis]' derivation='None' name='[none:diagnosis:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:area_mean:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:area_se:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:area_worst:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[Multiple Values]</rows>
+        <cols>([federated.0u40nes00vqe1s1d3o19d0kgdk5t].[none:diagnosis:nk] / [federated.0u40nes00vqe1s1d3o19d0kgdk5t].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{502603D4-5DF2-4044-9886-C7301A65FF61}' />
+    </worksheet>
+    <worksheet name='Diagnosis'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Promedio de Diagnóstico</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='breast-cancer' name='federated.0u40nes00vqe1s1d3o19d0kgdk5t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0u40nes00vqe1s1d3o19d0kgdk5t'>
+            <column aggregation='CountD' caption='Diagnosis' datatype='string' name='[diagnosis]' role='dimension' type='nominal' />
+            <column aggregation='Sum' caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column-instance column='[diagnosis]' derivation='None' name='[none:diagnosis:nk]' pivot='key' type='nominal' />
+            <column-instance column='[id]' derivation='Sum' name='[sum:id:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[sum:id:qk]' field-type='quantitative' max='10554758406' min='-120408815' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.47176796197891235' />
+                <format attr='mark-color' value='#69aaa5' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[none:diagnosis:nk]</rows>
+        <cols>[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[sum:id:qk]</cols>
+      </table>
+      <simple-id uuid='{DF03E5C2-3FC2-4CAD-BED7-F0FA7AB4C9B1}' />
+    </worksheet>
+    <worksheet name='Perimetro_diag'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Perimetros promedio del seno</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='breast-cancer' name='federated.0u40nes00vqe1s1d3o19d0kgdk5t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0u40nes00vqe1s1d3o19d0kgdk5t'>
+            <column caption='Area Mean' datatype='real' name='[area_mean]' role='measure' type='quantitative' />
+            <column caption='Area Se' datatype='real' name='[area_se]' role='measure' type='quantitative' />
+            <column caption='Area Worst' datatype='real' name='[area_worst]' role='measure' type='quantitative' />
+            <column-instance column='[area_mean]' derivation='Avg' name='[avg:area_mean:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[area_se]' derivation='Avg' name='[avg:area_se:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[area_worst]' derivation='Avg' name='[avg:area_worst:qk]' pivot='key' type='quantitative' />
+            <column caption='Compactness Mean' datatype='real' name='[compactness_mean]' role='measure' type='quantitative' />
+            <column aggregation='CountD' caption='Diagnosis' datatype='string' name='[diagnosis]' role='dimension' type='nominal' />
+            <column-instance column='[diagnosis]' derivation='None' name='[none:diagnosis:nk]' pivot='key' type='nominal' />
+            <column-instance column='[compactness_mean]' derivation='Sum' name='[sum:compactness_mean:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:area_mean:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:area_se:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:area_worst:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:area_mean:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:area_se:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[avg:area_worst:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[sum:compactness_mean:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[Multiple Values]' field-type='quantitative' max='2089.9560279887605' min='-279.59208589710977' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[Multiple Values]</rows>
+        <cols>([federated.0u40nes00vqe1s1d3o19d0kgdk5t].[none:diagnosis:nk] / [federated.0u40nes00vqe1s1d3o19d0kgdk5t].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{747D92E4-E8F8-4DA4-83CA-0E0C2C9AEB94}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='90250' id='8' param='horz' type-v2='layout-flow' w='98400' x='800' y='8750'>
+            <zone h='90250' id='6' type-v2='layout-basic' w='98400' x='800' y='8750'>
+              <zone h='45126' id='3' name='Diagnosis' w='98400' x='800' y='8750'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='45124' id='5' name='Perimetro_diag' w='49200' x='800' y='53876'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='45124' id='10' name='Area_diag' w='49200' x='50000' y='53876'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone forceUpdate='true' h='7750' id='13' type-v2='text' w='98400' x='800' y='1000'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontsize='24'>Breast Cancer Analysis</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='15' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='14' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone forceUpdate='true' h='7750' id='13' type-v2='text' w='98400' x='800' y='1000'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='24'>Breast Cancer Analysis</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45126' id='3' is-fixed='true' name='Diagnosis' w='98400' x='800' y='8750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45124' id='5' is-fixed='true' name='Perimetro_diag' w='49200' x='800' y='53876'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45124' id='10' is-fixed='true' name='Area_diag' w='49200' x='50000' y='53876'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D23EFFE3-C88B-4D5C-8ADA-06B02EF32804}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Diagnosis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-height' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[:Measure Names]</field>
+            <field>[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[none:diagnosis:nk]</field>
+            <field>[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[none:id:ok]</field>
+            <field>[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[sum:id:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B67B8B74-1398-4AEB-A2CE-7F9B4259CB37}' />
+    </window>
+    <window class='worksheet' name='Perimetro_diag'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='173'>
+            <card pane-specification-id='0' param='[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[:Measure Names]</field>
+            <field>[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[none:diagnosis:nk]</field>
+            <field>[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[none:id:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D14EB605-C826-4352-88AF-1D1FCFF51B17}' />
+    </window>
+    <window class='worksheet' name='Area_diag'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='174'>
+            <card pane-specification-id='0' param='[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[:Measure Names]</field>
+            <field>[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[none:diagnosis:nk]</field>
+            <field>[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[none:id:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{58B79963-5AC3-4C4E-BA2F-A0E284C6526F}' />
+    </window>
+    <window class='dashboard' name='Dashboard'>
+      <viewpoints>
+        <viewpoint name='Area_diag'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Diagnosis'>
+          <zoom type='fit-height' />
+        </viewpoint>
+        <viewpoint name='Perimetro_diag'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.0u40nes00vqe1s1d3o19d0kgdk5t].[:Measure Names]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{FAFF6F29-AC87-4BAD-8C72-B2497DF187AB}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Area_diag' width='192'>
+      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
+      CzTkZyvqY5cAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAgAElEQVR4nO2dZ3Bc2XXnf50b3ehGauREBAIkwMxhmNF4gkaWLVmyLctay6Fqq7zrcm35
+      g6vWoWrt/SB/8NZuqby2VbblGQVbsq3RWiPP2DPMHHI4TCAwSEQgMhpooHPO+e0HkCAxJEiC
+      6CYB9v19QaO73+lz33n/986979z7ZJIkSQgEBYr8WTsgEDxLhAAEBY0QgKCgEQIQFDRCAIKC
+      RgjgoWSZm55kcnKSyckprA43z3LILBYOMDU1hcsbeIZerPgxOTlJIBx7Yhsfn36XoSnLhraJ
+      +h28f/ajJ/7NB6HMqbXnjjTf+9ZfYmjaiUom4bQvs+PAq/y33/rlvPza+2+/hWbHi3z+xb33
+      fdb70Qnefu88dQ31+N1OfvP3/gddjWV58eNRXL/wAeeuj7L3pc/zG19+/YlsuBzLSJVdOfZs
+      4wgBPBIVv/P7f0CFGpJ+C7//jbdI/9YvY5sdx5/WUWOA0Tknr798FJ/LSl//EGp9GcePH0Or
+      khPyuRm+eRNfKEr9jg4O7ulABjiW5hm4OYZcVcTe/QdJ+paZMltR+HtJuM0cfvE16kwGAAK2
+      GX78wVX+8H/+GfUmI1I2QyotkYyFuTk8jN3lpcRUy/Gjh1EpZAz1Xqa8fidLcxMEYxlefuUV
+      irUqpGyaoU96WXb6aN21l672JmIhHz03+kjJ1Bw7fpwSvRbLA9p2lyyDQ+P89n/5z3z/R6eQ
+      vvz6Snsssyz5UxhkMabMVroPHqGlvopENMTw8DBOt4/SqnqOHzmIUi5bteaxmhlZ8PDai4cB
+      mJ+4SVRRyu4dVfTduIHLH6KytpFDB/ejUWvQqNUASJkkn9y4gd0boLK6nkOHDqBWyNgoIgV6
+      JBLz05OMj43wb++e4OjLn0EJLM3eouf6Vb77Dz8imZGIeJf55l98C184wcxID2/9808BGBno
+      YW7JiZRJ8e4/v0Xf+CKpsJO/+KtvE01kCHmd9A6OPtSD8ZFhuo+8TL3JCIBMrkCtVrI0d4uB
+      sWmyksSNix/w7pkrAAz3XuGt736PZaePWwNXee/MZQDe+cHfceKjXrLZNDdHxsimIvzlN7/J
+      otOHZ3mGv/jrt0hL97ftXkL2OYLaena2d1ItczLvjADgXJrln/7x+1zpHyfstfKtN38AwMLU
+      CDcn5shKElfPvssHF/vW2CspNXLyJ2/jjqQBOPUf74BGz7l/f5vLAxNksxmGej7CF4NMzM/Z
+      S9cB+OjkO1y4cRMpm2Xkkys4g6kniq64AjySNOdPfoCSDOF4mi9/5Y3VTxaWbPzRf/9DSnRq
+      es79G/UdBziwtwuy7XznzX8ikv0aR15+HUX/AC6PnypTOUtLVg41tyMjSyAYpKWljWPHjqLT
+      KOnYcR3NjqP3pUDRaIzi4sr7PGvZfZCXkrCw7KC6qgrL8vLqZ1/5+m9zuLOWket6rpsjZCIO
+      ro25+PP//WfolCvnvYWxHlKGeo4fPgCAefo7mG8f0Pe27V6GBwfZd+AgIOPAwX0MDg3T+vmX
+      AOh64Wf47V//MiQ8XP3TvwFg594jxDMKFm0uqqqqWFpaAu5eUZS6cl461Ma13kF+dn81y/FS
+      djdVYB9QEg65SGVreeNLX6NKD8n4XT+USiWRUJBkRuKVn/8KDWVr/XxcxBXgkaykQH/4R3/M
+      n/zB7/GT7/8tvsTKJ937j6weIKlkipDfw9TUFFMzZl594zVkEvzw23+NPZxhZ0cH1aYyJCSU
+      ehN/+id/TFtjDVPD1/nb7//4oR7U19cxPT19Xwf8w/94m2ujC7S2t9PcUAsPqWqRUkkkdRFa
+      5d2QJ5MpkrHQis9TU+w5+ioGjey+tt1jhcHBAc7+9B/53d/9Xd5+/yMGB4fu/7F7MpFT7/yQ
+      /mk77e07aaqvhgcMI/zMK69w/cpVBgf6OXT8ReTAZ3/pN/j6L34ORSbOd//m/3LL4lm7zc//
+      Kr/11S+gklL84O//iuFZ+7ptfxhCAI9kJQWanJykt+cqsawG5QP2WltHBx6Xk+q6RtrbWpHJ
+      5KgU4HK5MZYYiQZ9LCyvBClon+fc1X4qaxvZv2cX4UgYAL1Oz+hQPxMTEwSjiVXbHQeOo/bP
+      8P0fvcutiQmuX77AkiuE2+XCYCwhm4ozPTv/0FYoS+toK47yo5+eZGJigt7+YRpa2kgGPBSX
+      V7NzZzs6tQyZQrWujZhnkYWIkb/7+zd58803efPb30LpmWHJn1h3G5fLhcFoJJ2IMjO38MDv
+      VDTtpl7p5t1zn/DisUMAfHz+FL6YxK6uPdRUFBOJxNdsc/XiGVzhNJ1d3dRXlhKOPNmIlOIb
+      3/jGN55oy4Igy/zMFJO3z5D+aIavfv3XaTCVEPS6kTQltDbWAGCoqKW2VMW1a9eZnjVjqt9B
+      R2sTtdXlXPn4MqGUgt3tTRSX1dDSVMvC9Dh9ff24Ixn+06/+CqUGHTV19ZgnRxkem6Cta//q
+      GVimUHHohRewzd2it3+QUDzLnr17advRwEDvVZYcfvbt7SarLGJPRyv25UVqmjupKNERCXqJ
+      Sxo6WpvZu38fM2ODDAyNoK+oYfeu3XS01NLXc42xiWm0BhPduzuIBTxr2nYH88wE+somdrc1
+      rbwhU0I6TEKup0Qj3f6dRsimmTHbOHbkALW1NfT3XMHqCbF3z27k6mJ2tzfjti9TUtNMTUUJ
+      IENFnKWIhi+++gIA6XiET/puMDo+SfuBl3n16B6kdByzzceRA3vIJGP0995gZGyC5t1HeOMz
+      h5BvvA+MTFSDCp4189O3OPPBe3S99jVeOdj+VH9bpECCZ87H509R1XGclw883YMfxBVAUOCI
+      K4CgoBECEBQ0QgCCgkYIQFDQCAEICpo1ApgcuMT5q/1cu3KJ2SV3Tn4gbh/nw/55xvsHiD/i
+      uydOnHzg+0nvAm+/e5qe69cYmZgDYGBgYOPOSGkunDtLLJVd83Y67GLO6gN4LD8Fzw9riuHC
+      Phdth1+lpVTi/fdPkIl2Ikv4iWmqMcojuLwBGlq70CbdTNlCpGJRKioMeDxhjn3mOG7LLBa7
+      i/odu6ivNNDf10c6ZIfS/WiNxSgB17KZ+WUXFTUNtDXVAuCxLTKz5MDu9gNwa2QQfzjJwSNH
+      0SplZJMRjFVNHH+xizP//i6tO1spNhQDaQZ7B4hnMuw5cAQtUfoGx1BIEt3HXmJ2qIeMXI2q
+      yMje3e2M3RxGZzCSyUq4rQvMLjmpqKol6xzl0kwaXj606qfbusDsspOaumZ0RO/zWfB8cF8K
+      NDbcT8+1y9Tt6GSo92NsESV7mw2MzLg5cvQ4/T2X8dvm0dW0U6+NkDa2UK8NM+OMMjA6xdGj
+      xxnsvULfpfPUdOxnf3cHAPPT06SBnoERjh49wvRIP+nbv3mld4BjR45QYyrFtzCMT1bJ0UOd
+      XLh49T6HG01qrL4009PTgIL6hhpU8igXP+7n/PmLvHDsOMq4n3Aa5iw2Dh06xOLsJI6pG0Q0
+      DRw7cpBLFy5w7UYfew8coq25nqamJlo7u2ltqrvrZ/9Njh05QlNd5QN9Fjwf3CeA7v2HOf7S
+      KxzeuxN9WS2vHD+ILBNHptYBILtdb6FQKEAmW/0rSRmWzHP09/fT3LYLXyRFZUnRfT8ou12w
+      oUJ2+2DKoFBqVj+PhYLMz00zNDrLnu7O+7Zf9qWpL1u5cPkWRxlejPDCscMo02mycuWaSRF3
+      Jk8gkxEJhSguMSJTqJFlU3zxF77I+NAnnPvoKjK5HCm79n6gTC6/vansAT4LnhfWCKC4rBLt
+      PUlReUX5ygtdLTVFUfp6e2hq70JbXIZeLf/UXw1HDu0jk5WQJInPvHiIixcuMTqzTFmxlrLy
+      cuRAW0MNvb19FNc1oQVAQW1FMX39A6Sycuq6jlGtTSJJK3YA5Go9Qecivb03qOvch04B5eUV
+      6MtqSAdt9PePYSw3srdjBx9f7WF2YXmN/xXl5bQefAXXxHV6rl2m+9CLLMzNgVxBidGIxtQC
+      3hkWlh13/Wys4UZfHwtW5wN8FjwvPFelEMsLM9icfqw2F1/8xS+I2T6CR/JcCUAg2CjiPoCg
+      oBECEBQ0QgCCgkYIQFDQCAEIChohAEFBIwQgKGjyKoBMJgNAIrH+ujFPSjqd+6IEYbPwbIor
+      gKCgeSoCuHMlEAi2GuIKIChonooAFArF0/gZgWDDiBRIUNCIFEhQ0IgUSFDQiBRIUNCIFEhQ
+      0DyVWYMLAT9z87M5tZnNZpHLc6tfYbPwbD4VAcx5PZwYH3kaPyUQbIicytPrsjM5OYnbH8ql
+      WYEgb+RUAP5AAEmSCIWEAATbg5wKQK7S0tG+g2g4nEuzAkHeyKkAqspLmJmz0NbWlkuzAkHe
+      yGknWGcopcNQmkuTAkFeyevCWJlMBoVCQTQaRafT5dR2Op1GqcztIJawWXg2xY0wQUEjaoEE
+      BY2oBRIUNCIFEhQ0IgUSFDQiBRIUNCIFEhQ0IgUSFDQiBRIUNOIKIChoxBVAUNCITrCgoBEp
+      kKCgESmQoKARKZCgoBEpkKCgESmQoKARKZCgoBEpkKCgeSorw3kiEcIBf05tbodl94TNrWmz
+      o6p69fVTEcCgbVksjSjYMvzd135j9XXO5JmIhghFk2SSUbwBsTCWYHuQsyuA1+klkM1QBEQz
+      acpLOnJlWiDIGznvBGflckSXV7BdyNkVoLi0hBIFhNIKlNlkrswKBHklZwIwlK4siZjb9d8E
+      gvzyVEaBDtbWs7OyKqc2t+oQm7C5vWw+lbVBE4kEGo0mp7a3w7qTwubWtylqgQQFjagFEhQ0
+      ohZIUNCIFEhQ0IgUSFDQiBRIUNCIFEhQ0IgUSFDQ5PVOcDabBUAmk+X8KiBJkrApbG6avApA
+      pVIBoFar89IPEDaFzc3yVFKgXNeDCJvCZq7Iay2QQLDVyWsKlAq7GZ6xUWIsJRl2o1Traeno
+      QL0JEbsdViyuAE0Vxdj9EcorKqmtqtiUnw6rhaUFK1VNdQSDubHptFpYMC9Tu6OeQCA3NpOR
+      AB/dGOHw7uactf3W6DByjYHyYhXOHNkcHxmkuKKOTNRPIgM1dU2UGoo2YTHD7OQMVo+fhqrS
+      HNmU6O/tyW8KFPIEaNuzF4UUR6UtRhYPEt9k/8VUXYdOo8QTitLSUIPP6920n3qdDr2pklgk
+      dzaLDQYycvAHcmdzYGgYpZRk0RXImU2TyUTY62LZnys/0/i8IZwOB6ksmEp1+HyBTdpU0FBb
+      QXPrzhzazCKTKfIrgNK6GizjI6h1ZShIE5cUKGWbs+mwWvC43ZjKy5m12FCrN19mvbC4iCyb
+      obqyImc2/X4/xUVaanJo8/hnXqGjo4PO5pqc2UylUii1Olprc+WnksqqcvR6PUadFrc/jFqt
+      2rSfrmCcxprynNrUqDWiDyAobMSNMEFBIwQgKGiEAAQ5IxqNPWsXNowQQAEy0XuFi9d7sdsd
+      +EIxPB4PCzMTzJsXmDFb8DiWmJ63AGCzzPPDt3+C321jYdkBwL+98w7xsJ//9723sMfv2n3n
+      g3Nc7ul/Fk16Yp7KqhCCrUXjzp0s9g7iWojiVDYTt98ilUqgVqtRKTXEK0v4uH+Unf/163wy
+      NEu5sYgTJ06iKammuf5LAHz40WVamupXbf7LT08wNjHLkQN7nlWzngghgAIkGotTUqIHrYGo
+      bQGjsQyNipWVOyQZwZCPutpaQI1WmSSt1NPc1IS+shEAU2Uleo0Cp91F++0c4kB3J10drezu
+      aH12DXsCxDCooKARfQBBQSMEIChohAAEBY0QgKCgEQIQFDRCAIKCRgiggJEyCU6fPk86W7gj
+      4WsEYJ0b58qNfq5fu04wllp3I+vcOFZffN3P78Xj8WzOwxzSc70Hn3WOOavvod+bHOjB+6mH
+      3IRtk4wsbH4CylbCYTFTXt+EUr7JSRq5IOmlZ2CSufF+HnVo9fRcv++9B8XscVgjANv8OPWd
+      hzl+7BAXz59HyqYYHR4iFE2STUbwhWLMz89TVllLiV6Nx+PBMj+N1eVjcW4Km2vlwHLbl5ic
+      W4Rskn/98Y/p7+9frTmxWeaJpcG5vMDU3CIA8XCAwcEhwvHbLcgmsS1bGb45RjorEfJ5iKcS
+      mBeXyWaSjAwPEYgkgDQuu4Ph4RFisSg3b46QykggZbk1OowvFAUg7HczNDyKw+XBUFZJRYke
+      pCzTt0ZweO6dWSQxOznG+NgkySwkoyGGhkdJZSXS8TDBSHL1e3OTY8wtWgEI+ZyM3ppGYkXw
+      bptltZYmGQszNHyTRCq78ejkmb6bkyzPjgMQCXiIJVPMLyytiTtImGcmuDVtXt0uGQlgtVoZ
+      m5xdbXMiGmTZsfJ3aHiEZDpLMhLA4XQyOjFDOOBhdGIGCUgnowwPDRO/vU/cNgujY2N4fGEq
+      a3egV0M2neDm8BCh2N2j+k7sp28fN/fu97DPS/L2LpayKUaGBrF7Vp5NbV8yr8bqzjFrsbmB
+      dVKggNtOkaGM82fO0NK5m/NnT5H0LvDt7/wAiyuEfWqABW+SSxfOUlRWy+Vz76Mrr6P32mVC
+      9mmGzX5KZX6uDi/S1LKDw4cPU2Yo4ic//A69N6dwzAwz5UpSropzuW+U0+cusHdvN/Fo5PYe
+      9nL60iCdrXWcOH2eqYHr/PNP3iOaynLm5ElaO7u4fO40SSnMBx9cprO9nLf/9RwdbeWcv/AJ
+      H50/Q21LJ5fPnyUednL26k32dneAJBG2TzG64OXyh2cw1rYyN3gZW3BlJ185fwpNRSPVFUYg
+      y+lzH7G7o5nTp8+v2T+28es4shUYilRkY14+ujFBc5WO85d6uX7pAjE02G8N4ElmOXnqHF27
+      Ozh9+vQTHKJ5JJsglVFQUyRjKZBkYbSHH7z9HqFEek3cScUpKq/DhIvLo0sAeBdGGVwIUmeU
+      OH+5n+sff8h7/3GKrJTi5KmLdO1q49Tps3gXRumbdlMUNnN10kNR2Mzocpgzp8+x6/Y+cc7d
+      5OZSmI7WJiRgauAG3iScOnGS9l1dXDxzijuzaE++/z4tnd0UF6nv2+/3cvHMaRo7u1Fk09in
+      hzD7QeafZ3DGwYVzJ9CU1jBw4yqpkP1+AYwN92MPwc++dhyH3cbE2CjFhlIywMEXX+eVo/tW
+      v6vRlWAqLaa4xISptBilUsny3DSRWIwlb4JizdrcsnrHLn7pF34O2/wyXft2YmrsIOhc5MCe
+      Dnr7PsHuuptiVFfXoC0uQyklAPj8l75KV1sjWbkavVZNQ4kKVwyqa2vR6vXUmExo9XqkZBKb
+      w87sxBiGYgOW2Ula9ryAQqlGqbzb3GAyS3Wpnu6OBmYWXQAEkhINJuPtp9mEsFncjI5PUVpW
+      uqYdVe37SbsmGR2bwGs34w7FmDLbKS3RIdfoaKytQqdRkcqGUWtMqNVaVPKtlWcvjtwgghLU
+      aq5dvQHA61/4JfZ17FgTd5fdTP/AMItWB8FAcHX7mpoaymrbSATtgIqv/tqv0VgmR2OsQ63R
+      oZKtHLa1dXXodUWYKqvQ64pIJtPYbRZGR8cpKS1jcmKJF17YjVqjWXswKjXoNGoqi1QE0itv
+      yVRFFGtVaNRqQs61+/1ejhw9zM2+PqbmLcxNLxCLefAm5GikJDpjBVVlBlQqJT7r/P0C6N5/
+      mF3tzciA1pZmEqkMxrIyFKwscPUoWve8QNLvQJJklJeX0VZTzqVrNwhGk6vb7zu6l2tnP+Ta
+      xx+yY9dBotEEapUSh92xamfJPM31a5cx1bUCctTqlbq9CqOGnt5eluJq6tZ5Il9HawvRRAq9
+      sYzGzj3M9F1gcHCIaOJuGtJSU8GV6z1cHl7iYGfdSrBK9Vy+1sOMeQkooanJSEaSKCsrX2M/
+      FAig0eqI+l0oq3dhlIWRJInysrJPeWJEowjQ29eLuvjTnz1bhhf8/OZXfo4XX/8CqsRKOnAn
+      PvfGPR2P3z4Dr+0nTN8a4fLFs7TuPoxcrV6Z662pRJWy0dd3A63RtO5v72hqIp2RKCsrY8+B
+      nVw4eZ6hm+PcmySW6VXc6O3Di5by2yWbWnma3k8GsDo9lNSvv98DwQhFRRpcTgd7XtiH3+FG
+      kikpLzOu+V5l674tWgwXt3Py6jJffOPws/ZE8ADs41dZLurmcEvpo7+8xdmaAsgm8QQSVJQZ
+      nrUnggeQjARIyPUYirZ/Nf3WFIBA8JQQN8IEBU3eBBCNRvNlWvCE5Csm2znWeRPAdnkqTNi1
+      yMXL15hfcjI+Pv7Y26XDLqZuD59uF/IVk+0c6+3fi9kkYZcFY0M3o4NXMFWasC7OMTg2y87m
+      SmzWZbTFFZgtNnZ17cLjdlJVVsKCzcfxPc04rR6mb41y/PgxKkrWGZMVbBkeFGvRB2Dl1nlG
+      kuH1eBkdHWFhdpbxuUUaTXrcXg/FejUDn4zR0t3N3PwCemUM84IFTzi98nrJ/aybIHhMPh3r
+      vI0ChUIhDIatP4yZjAQYmZxj9569xEIBSMXwRrMUEeb9D87wuV/5TcqLFKh1Bpbmpmjr6GBy
+      /BZtO9uJJlLYFhdo270HnXrrPwkzXzHZzrEueAE8DtFoFJ1u+6c4hS6AB7FtU6Co38P45CQ2
+      Z/5LlPPZyUuGvFicXjKxADOL9rz9znYmn7HetgKI+f0kJIlQKPSsXdkUyXAQh9fPks1DKr69
+      25Iv8hnrbSsAUNLesZNkLPysHdk0OiWEs3K2fi/iWZG/WG/bYVBjTQVz07M0t7Y/a1c2RVF5
+      DTurFMRjaRRbrGR6q5DPWK/pBOfyEvO8dBzh+WlLIpHAZFopUxaxXmHNFeDRPXmJpQUz5TUN
+      JIIeFLpS1CTxRzNUlxdjsTppary7YvB2HRl4EM9TWyD37dmu+2dDKVA6HqW0sgbz7CRyeRHc
+      nnOpAiZ9DupMRhZsQRqq9GQyGdLpdD58fuo8L23JZrfevORnzYYEoFAqME/M0rG7Fcv83ZUV
+      tEAcMBj0uEMJFAojCoUCpXLbdjHW8Ly0JR9Pbt/ubGiPxEJBZEolPl8SlSKGtriEkmItMYWK
+      1upyxqZtNDZW5stXgSDnbOi0piurorusauUf093pcHdmf+7p2lrzXgWCRyGuiYKCRghAUNAI
+      AQgKGiEAQUEjBCAoaIQABAXNhgUQDK6sD2m1mLFYHcQjQewuH1ImxaJlOecOCgT5ZEMCyKbi
+      DI/dAsBsNmMwGDBbrEQ8DiZnZynVy1iwBR9hRSDYOmzoRphcpaXaVAZIvPjyq4yNjlFUVHRf
+      KUQmk3lu6mdA1AI9z2xIAKl4mGgkitXhIurzYiw3oVNk8McytJoMjE3b6Ny1C4X8+amfgeen
+      LaIW6H7EpPjHYCu1Zdbr5q3e+x8R9DA+197Bz7Z3iknxD2D7n9YEeSGbitM7NM7xIweZHBtZ
+      M/ejwVSM1eGhqaMbo3Z7T+R8qACi0Rg6XdHT8kWwhZCrtJSXFgMRVNpqyEZII6daK2c5nGDv
+      3jbm5lzod1Ru6z7SugJIJJP87T/8mK99+fPsaKpf72uC55RUPIzFYqHYWErQt4hCV4KGBIvR
+      DDUmA6Mjk1Q2daFQKLZ1H+mBXqdSab75N/+ArkiLWq162j4JtgAqbTFvfPYNAOqqq+77vPFp
+      O5QnHiyAdJpf+dLnkCGjrub+xgsEzwsPFICuSEtXR9vT9kUgeOqsOzCcCjkZGJt7mr4InhGF
+      HOt1BSCh4MqZd/jRe2fveTPLrYlJABbnZ1i2u3Hbl5mZXyQW8jE6PsEWfCC64BE8MNYFwrpd
+      90zUzb5Xf5mkd3H1vWw6RQYJiJHKFJEKB4gDRcCcw0v3zlrmLS6aG8q39dDYp9lKbclmNn6G
+      yWazpNPpdUshHhTrQmFdARSZdiCNfExZZd3qe3KVBrVCDihIpeNAavUzhRxCoQgKdfG2Hxr7
+      NAqFgkVniO+dGNzQdp891MIbh1ty6otcsfFyBrlcjlKpXLcU4kGxLhTWPULPnz5BMAFRPKvv
+      peJhpKyE1RGkukL/wJXhmhuN65nc1kTiKUbnnRvaZk/r9hhBe1CsC4V1TycvvdDFvD1AKh5Z
+      fU+lLaazs5O6ahNllTUY9Vq0eiM1lWXIFKo1yyIKtg8PinWhsO4VQFNSyxdfO44jsH0fgSl4
+      PAo51usK4OrVa8SzSopLxUpvzzuFHOt1UyC5XAYSSJIY13zeKeRYr3sFOPbyG6hUog6oECjk
+      WK97BSjUHVKIFHKsn4+BeoHgHqzBALF06tFfpIAEsJGdcoe2ctOjv1QAWC1mMooiKkuK1n0a
+      0Fbi/Ykx5ryPd0/jiQXwyY1rVDe2EfM7CdyeJBEIBqhs6qK6VPukZvPGRnbKHf7Pz385T95s
+      L8xmM10HjmK2LN73NKDm2u194/OJBWAyVeByuSkt1tOkAWcG9u7tZG7OT8aw9abJPcnc/zv+
+      ZzIZstmNPyz7Tg1OLslHLdDD2X5L4Gwk1k8ogDSplIROV4RSnsVxe6L06MgsTR3da2qB/vQ7
+      FzZcQvDv/+vrT+bWQ5DJZBve5k4tk0KhQC7f+OTvOzU4uSQftUAPJ8vs5PRjLYHz3Q8GmLf5
+      N2T9z3/ns0/g08PZSKyfMDpKdu7atfpf0+2/5dVbMycUbAYF7ffE+mFPA5q3+Td8snvWiJWS
+      BAWNEICgoBECEBQ0QgCCgkYIQFDQCAEIChohAEFBk7O7NFImtaXrQ7YCSbMZ3w//aUPb6F99
+      heJXX82TR4KcCWBudpbKPNWHhC9dIuNyb2ibkl/9ak59yAXZaJTE+K0NbaPt6sqTNwLI4QMy
+      ZmdmaW02MW9N0txQTjAYRKPRACu3yjOZzLZ9HY1GMRgMz9yPzb4OhUKYTLmvcL3zgIytUvby
+      Zu+1/FeDfpq66vI19SFKpRKdTpcr88+UTCazKubtTDKZfNYubDly1gkuMpSxp2sXKtGtfu55
+      npbBFIerYMNYby+DabG4nrUrm0YIQLBxsqnby2Bu/7SwYKZECnJHa1tb3pbBTJrNZKMbW6Br
+      MyNlawQQCoWe2NCniW6wEQ9CkqQnmsiSaxubbctWaUcikVh9nOlmY11Waly1cTmGNjoAAAKv
+      SURBVGf/HNlporlyYw9VvGPjTvvCo6MbH/JubFxjo8NYSqVK/VjbbunnBGez2U0/3DkXNjbb
+      luelHfm0+6z2UV77AObZSTz+8GN+O4PXG1jzjpSKMzk1RSzxePNNk7EQ4djaob5c2Aj53UzP
+      LZB9zFOF3+vl3hnEcrkch9XCku3xx8i9Xu+a/3NhI59s11jntQ+QyoLLZiET1SOpdPjdTipq
+      GvE5FkhJCjRFBtp2NADgs1qY8SQ4Wl6yun3Ma8FYu5OFuWk0SglDaQVOl5umhmrMy04UyCit
+      MFFbVQGAxeoAZBS3teXUht3lYV93B7dujqEuMVKiVeALJzCVaHE4vSiVcqob2ijRr1x27UvT
+      BBKdNNeWrtoIRqLoCbPokiNLJJFSUdAYkKciBCNxkCnZtbtj5YyUiXFzaJQXX3sFzT2nqFzY
+      yBfbNdZ53TUO6xJFhlJ8oShFST+lzbvwueyoi4pRKRQo7zlPWhwusn47/sTawWXz7DQV1TUk
+      s+Dz++javYOFW+NUNLaiVGhIRu+edVx2K8uO+/PHzdpIJ2LMzC1jKlGjK68iEApTJk+zHEpQ
+      rVdR0dKI37WSy2ZiXhxBcNnXPm0l5PcQREPS56auvppEWkYiHCSDHJVSSVmRhjvnreX5OUoq
+      ipk123JuI19s11jntQ+QTCaoqDDh9/spNeqZnJymoqYRpWxlKY07q0cYDAY8Hg8VZQbcLj/a
+      EiNSKouGKAmNCYMa/H4/GgXMW2w0NVQjaUtIhkIoFCu3+Yt1SrzBLBriJOVqdCqQaQzIou5N
+      27BZ5tmxo4VkyE9aV0rUZcUTTlBtKkNNBgwGkoE4CrWabCKCrryCoNeDWr1yRVhpn/vuvigt
+      ZXF+BjQGjDoNmUwGtUKBXKlArTMQ9HmoqKjA48mtjTt2RKzv2vj/vbA+eeNYyAoAAAAASUVO
+      RK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Diagnosis' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Perimetro_diag' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAARzUlEQVR4nO3dW2xU+X3A8e//zJkZz4zHdxsbG2zsheWOjQGbNXsB9qJNm1W6uaq3SFWr
+      PKVS1eS5L+1LnpsqfamUSFFUKW2jVkl22bsXDBiMbWyDjY0v2NjG9+vczq0PJiyEJTbZMx6z
+      5/eRVsKIPfxGzHcuPnN+Vo7jOAjhQUoppWV6CCEySQIQnrblAkilUiSTyUyPITxiywVgmiap
+      VCrTYwiP2HIBeN30yE3OnTvH+dYukpaNlVyl+0Yfpu3O8a34Atdv3saWb30AEsCWc+vK+yyF
+      KylU4/z4P/4Px0oydncSy3FIJZMkkklsx8G5/3UylcK0bGzTIJVMYpgWOA6mkfrsz9oWyUSC
+      lGFiG3FGJ6bv//8JkikDL38jUM/0AOL3KEU0N599h/bwyTv/xGT8BJ1dN2lq3Mu53zSzNDtK
+      3uGvUBcZ41ctIxT7plD7v85zU79mIVLBp13L/PCvT/Hz//qA3IiGf0cj1WYvrZMmZbllvP5y
+      JVev36K+zOJn57qpKinjzNtvUhT0Z/qWZ4Q8A2xZCk3TcNTaV5Zpk0ysomHRPzTG1YstvPqN
+      73L8+XIsxyE7O4fX33wTFZthsO0yZSfe4Nt/8VfcvvwOek4uyjQoKC8jcP/oeihClgaRkhIi
+      Pl/GbmWmSQBbksPU7ctMR3az/f49dqavhaXCWl46vhddU+REQkxOzbC8tMzvv4LJLy1h6s4o
+      qzO3sbMrKCrfw7fefovej/6T0aW1P6OC+Xzzz7+FMfAR1+7ENvfmbSFqq50JjsViWJZFNBrN
+      9CgZcbf3Cp9cGyBaXMmrrzQQchJc6brNkYPVfPTb35JXXk0gt4Q9JToff3iBxclbBOr/ktPb
+      liisep6Wix2cbDxK79XzdI/HeP2NN7BmB/i4pZ28HQd5ubac1hvjHKkp5OMPmzEi23njzEmy
+      dO89FiqllATwjBrrvcqFjgFiKXjrm9+kMOTdlzF/LAlAeJp8Fkh4ngSwQV2tH/PBBx/wUXML
+      c6typnpdxhLvv/Mxq/fP4E2P9PLh5c4MD/U4CWCDYirM2bNnaKiJcn1wKtPjbH12El3F6B1Z
+      AGxGJhYwVqYzPdVj5ETYBsVmRnn//SUMA+qadmd6nGdCqHQPqakBrLIqrKwiAonVTI/0GHkG
+      2KBw0Q5ePXuWhoPbuD0kzwAb46MwYNIzMk3p9hJUpsf5HBLABiWXZ+nq7mZwdJpQKJjpcZ4Z
+      2yvL6L85SlHB1vyunnwbdINWFudYTRho/iAFebn4tK34eLaFOBaJlE3Qr7ESS5CdHSEeixEO
+      hzM92QOPnQcwTRPbdulzt3+keDyOZVlkZ2dndA7x5RcMBtUjb4INwyCRSGRqHgCSySS2baOU
+      PMKK9JOXQMKz5Eyw8DwJQHiaBCA8TQIQniYBCE+TAISnufZhuNTSFBeuXsc0LQqrDnBkZ4SP
+      PrqEqXTqXniJHHuO85c6MRw/p86egblhLnXewvGFOfXKi0TkY3kiA1w7D2CkUiifjrKXaLk4
+      yPbIKr49J9mhTXGhZ4USZ5K8Q00UmSNc7NeIJkepqm9Cm++jf6GA+r3bADkPIDaPUkq59rjr
+      DwRILM3Q3nmDyn11LN7qpiqq4yMXvzFFggA5YR86ReiJAUxChIIaZBegJlew7WIsy8I0TVmP
+      KDaNawHYiXkud/Zz5GgDeZEgg0MGizGbiLaC4csilyVWkzZZ5gJGIJes1ARJw0GLL2L7o2ia
+      hqZpGIaBUopAILD+XyrEF+TaS6C7189zYXiFwoifvG27OFiVzYcfX8FRGodPvky+PU1z6w0s
+      GxrPvo42M8DlnmEcR6fp7GlyA2vvx+UlkNgsshVCeJp8Fkh4ngQgPE0CEJ4mAQhPkwCEp0kA
+      wtMkAOFpEoDwNAlAeJoEIDxNAhCeJgEIT5MAhKdJAMLTJADhaRKA8DQJQHiae8tIHIv+rqsM
+      rwR57YVaEgvjnG/twVGK3bUNlAXjtLR2YJDFCy+/CAtjXO7sBX+UF041Ij/nWWSCawGYq4sE
+      CyvwLY8CcLevj5rGV9ih3aP5+hgp/wy7T5ym2Bjias8Y2fFhaptOo83cpPf2NHV7it0aRYgN
+      cy0APbuAikCMwZG1AMp31/DeJ+/Rq9nsrn+RlduLVOT4CVKK1juAQYjskA75JTizS9h2oaxF
+      EZsubfvYBnqHOPrKWYq1BVquDVKsp4ilHLKsRQw9StCcImU6aIllbD0ka1FERrgWwMr0Ha50
+      3KD/zjiBYDaVRbl0tjQTUCa5FQfYUZjD+ffewbFs6s+8gW8mxafvnQNH0XjmVbfGEOKpuLYW
+      5Ysc5uGfByZrUcRmcXU1ovxQO/EskvMAwtMkAOFpEoDwNAlAeJoEIDxNAhCeJgEIT5MAhKdJ
+      AMLTJADhaRKA8DQJQHiaBCA8TQIQniYBCE+TAISnuRqAlYoxMTW39oXjsDQzzo0bvSzFDRzb
+      5O5wP4NjUziOg2OlGLndx517826OIMRTcS0Ac2WGCy2XuNLdC0Bq6S5tvRPk5UZIpUymhrq4
+      s+AQG+2idyrO8I1rzKX8zNxqY3g+6dYYQjwV1y6J9EUKaTrZwKdtXQAMd/dBIErfwB0O1BYx
+      ObHKgRdqiVLAhZbbhBzF/lO7YDlAz+AElXmVa88M9/+zbdut0YR4IlevCX74uuBUyqBi3yGq
+      smI0X+2myKehKYXCh6ZsQEOhQPlQpB7c6W3bxrIsLMtyazQhnihte4HKd22jc2SSyj0RfD4/
+      eTkGd8YWKIz1ESjdQ3ium8nZVbh7m1DxkQd7gXy+tR2Jfr8/XaMJ8YBra1FWpu9w5fotUqZF
+      dlE5J2r3MdbXyZ05g9r6o0R1i56ONmKBYo4d2o2TWqGzvQMtbwdH9lah3X/ykLUoYrMopZRr
+      AbhFAhCbRSml5DyA8DQJQHiaBCA8TQIQniYBCE+TAISnSQDC0yQA4WkSgPA0CUB4mgQgPE0C
+      EJ4mAQhPkwCEp0kAwtMkAOFprl4SaRkJ5pdTFBXkrP2GYzE1OU1ucQkBzWHm3jiGL5uy4jxw
+      TO6Nj6PCBWwrkItfxJPNrK5wrr/PteOdrtlNWXTtPupaAGZsnsut15g2s/jaq00ALN4b5v0P
+      rvLyn75FYL6f3mkIJ3pZVacITnczkYrAQj+pupfYkRtwaxTxJbNqpOicHHfteMcrdsL9x1z3
+      1qIEoxxvbKDlWjcAtpng5sAU+5+vROEwcXeJwyebyHFKOX95kLBtcqhpH2o5m57hCSoO7wR4
+      ZDWKEAC4fFdw+Oz+5d5aFJ+Obn32lqK/7QKqYBcr47dgdh6UD11TKAL4MEDz41MKxxdAc2KP
+      rUUxDMOt0cQzzrRMV4/38P0rbWtR8iuqcZaTjMbjqFiC8mybsckliuID+IsrCS3cZGo+BhND
+      BAsPPLYWJRCQl0Rija67ezfVffqD+5drR/7dWpRYIsWFtm4a6g5SUg75kRBZRduJaKVcb7/G
+      jJ7PiaNFOPHDdHRcQUW3U1ee49YYQjwVWYsitryRhTn+7dIF1473t8ca2V1ULGtRhJAAhKdJ
+      AMLTJADhaRKA8DQJQHiaBCA8TQIQniYBCE+TAISnSQDC0yQA4WkSgPA0CUB4mgQgPE0CEJ4m
+      AQhPc+9iS8dipK+LoSUfr5w4RHJpmqudPcSTFtWHjlERMbl8pYOUCnOyqRGWJ7jScROCeTQ0
+      1pPlc20SITbMvb1Aq4uYwVys1D0AHC3AkeMvENYW+OTiHezsBXbWNlGUGqSjd5zo6iD7TryE
+      mumhd3iW2ppCt0YRYsNcC0DPLmBXIIvRibUAsiI5JGMLtLb2UHPwOHO93ezJyyJMBWrgNklC
+      5Eb8QBmjAwvYdj6WZWGaJqZpkkql3BpNPONMw921KA/fv9K2FsWML9Da1sO+upMURYMsKYO4
+      6ZBlLWP6wgTNWQzLQSVXsH3BB2tRDMNAKSVrUcQDut/ltSh6GtairM6Nc/1GP0ODo+TkFBBd
+      HmImGaa/u52ZsmoqqrZx+eOP0Mwk+5teRZ9OcrG5GYwUtS+ecWsMIZ6KawGEcoo5cjSPI0eP
+      ozQffl8V5fefunx6gIC/hNMFO7CVTjCgQ/QgL5UnQfMTDMg7YJEZrgWg6X7Cuv/Rg/sffRkT
+      yAo99JUi+MjXQmw+OQ8gPE0CEJ4mAQhPkwCEp0kAwtMkAOFpEoDwNAlAeJoEIDxNAhCeJgEI
+      T5MAhKdJAMLTNhzA3MIi7V035Se4iy+VDQdwb3qWX/z3b+jo7k3nPEJsqnWvB+gbGOLW7RE+
+      vdTGaizOr37zIQX5uVRWbN+M+YRIq3UDKC0p5ue//DXLKzFOnzrO23/yGrr+OVdwOTYTw30M
+      zkPT0X3YRoy2y62sOCHqj9UTclZoa2snoUVpbKjHWZ2mraMbFSrm+LFDBOTdiMiAdQOYm19k
+      354agiOjHD7w/Off+QFzdZ6FpEZsdR6Ae7c6CVXXs1+fpKNvjFJnjJJ9DRQlBui4dY/s5VvU
+      1DWh7nXROzLP4V357t4yITZg3QCUpvjGW6+RTKZQSj35QNmFPF8d4t7cWgCzC7Bzf5QIGlp/
+      P8v42FMYJkwlzsggScIURIM4WgXjA3PYdq6sRRGfK6NrUap2rL3W9+tPd/lwQJnEDIeoSmDi
+      x8cyCcshZMcwtSwC1jym7aCMOLYWkLUo4okyvhbFcRwsy8Kn6zzpOSC+OE3fwBB379zhRnEZ
+      O3dX0NJ8noiepGTPcYptjfYLF/Gnlqk89gr+6RtcvdSKE19ib+Npt26bEE9lYwFYBj/9yU94
+      +3vfJ9//+Qn4Q9nsqKymorIanz9IOCebUw35pBydnGgERZSG6CKWFiQnOwC5h8kuWUT5w0Qj
+      advP5Ukj9xb55582u3a873/9BIdrtrl2vK1kQ/c8pfnYUeTj3//1J+yrKae0+hANB3c9eqBA
+      iMKiR9echKN5hD87Ctm5D73RVT5y8gq+wOjiSUzTYmph1bXjJQ3LtWNtNRt+6N257zh51Wu/
+      zouG//AfFuIZsbFnAKVhrUzzYfN1LAJ8628OpHsuITbFhgKwzRSddxb5hx/8EIxZfvm/H7L7
+      O19N92xCpN0G3wNo+ONzNF9shcVhgkX70z2XEJtiQx9AUD6dr37jO+QFoGDnUd46cyTdcwmx
+      KdZ9BlgcaedHP/4ZMeOz39v/8tv83ddeTOdcQmyKdQPIrazjX35Uh22bxOMJHAd8/uBmzCZE
+      2m34TfC7776LTyV5rqaakZUCTtdXpXk0IdJvYx9CdhyWkwYqsUrCn8PwzY40jyXE5lj3GcCI
+      rzC3HOdk/TEiQZN337vAqdf+bDNmEyLt1g3AjM3wP7/4JUlfiOKySg4eP0VlsZwJFl8O6wYQ
+      Kqzie3//jyRjS4zfHaX53Z9z7nI9P/jum5sxnxBptW4AlhGj68pFrl7vYWI2TvWew3z79KnN
+      mE2ItFs3gNjsJOPLDm98/btUFOc+8XoAIZ5F6wYQLa3mK6XVmzGLEJtOdjEIT0vbpVhGfJFr
+      be3EnSCH6o6Sq6fouNZOQs/jRP0hnPg87e3XUdml1B/Ziy4pigxIWwBjXdfI3dtIrW+SC11D
+      7ArNkltTR028n46BaSILvVQcbEBNXqd3dJGDlbnpGkWIJ0pbANt27aK57TyjyqLqYAOLQ/Ps
+      LokSoQarZYgEYZ7LC+H4K7k3MIu9I/pgLYplWbIW5QswzfStEcmEjK5F+WPdHRmjpq6R7b45
+      2gbGyXdMDNvBsROYKkDAimM6DspMYisdpRS6rqPra7/2+/3pGu1LT3/KFTbrH8+X0X8P92+P
+      /uD2pC0A3e9j8u4IKS2G8uVSVppPZ2s7WckZth96icB0N53XumB5isr6lx9buvWHlnCJzaYy
+      +++Rhr/6d7cnbQFUHTpBdOoeSaeEPSVF6MrhUHgKQ6uhpCAI+bVkTU2hsqopypFHe5EZaQtA
+      aT6KSh/dIF1QXPbQH9ApLpUN0yKz5JuPwtMkAOFpEoDwNAlAeJoEIDxNAhCeJgEIT5MAhKdJ
+      AMLTJADhaRKA8DQJQHiaBCA8TQIQniYBCE+TAISnpe2CGMexGOvvYWB8gX21xykOO3R1XCOu
+      F3K8di9OcpmO9g60nHJqD9TgkysgRQb8PyqnAoAQaOZIAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
